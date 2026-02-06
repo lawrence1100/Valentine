@@ -208,7 +208,8 @@ export default function ValentineProposalWebsite() {
             </div>
 
             <p style={styles.subtitle}>
-              A STORY WRITTEN JUST FOR YOU
+              {/* A STORY WRITTEN JUST FOR YOU */}
+              I Didn’t Fall in Love…
             </p>
 
             <div style={styles.decorativeHearts}>
@@ -222,9 +223,15 @@ export default function ValentineProposalWebsite() {
               <Sparkles style={styles.sparklesIcon} />
               <div style={styles.ornamentLine2} />
             </div>
-
+            {/* 
             <p style={styles.scrollText}>
               SCROLL TO READ OUR STORY
+            </p> */}
+            <p style={styles.scrollText}>
+              I Walked Into It — With You, Janu.
+            </p>
+            <p style={styles.scrollText}>
+              Scroll & don’t blink
             </p>
           </div>
         </div>
@@ -662,7 +669,7 @@ const styles = {
     position: 'relative',
     zIndex: 10,
     textAlign: 'center',
-    padding: '0 24px',
+    padding: '0 24px 45px',
   },
   finaleCrown: {
     width: '128px',
